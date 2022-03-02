@@ -1,5 +1,4 @@
 function highestRank(arr) {
-  //Your Code logic should written here
   let freq = 0;
   let highNum = 0;
   arr.sort();
