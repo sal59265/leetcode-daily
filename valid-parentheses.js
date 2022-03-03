@@ -1,8 +1,9 @@
-/**
- * @param {string} s
- * @return {boolean}
- */
-var isValid = function (s) {
+// /**
+//  * @param {string} s
+//  * @return {boolean}
+//  */
+
+let isValid = function (s) {
   let answer = [];
   for (let i = 0; i < s.length; i++) {
     let open = answer[answer.length - 1];
